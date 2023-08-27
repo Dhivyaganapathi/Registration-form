@@ -1,0 +1,61 @@
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(12,12,79,1) 41%, rgba(0,212,255,1) 100%);
+}
+#register{
+    width: 300px;
+    margin:10vh auto 0 auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 8px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: #1a1aa0;
+}
+p{
+    text-align: center;
+}
+button{
+    padding: 5px;
+    background-color:#0f0f3a;
+    color:#0f0f3a;
+    border: 2px solid ;
+    color:aliceblue;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.input label{
+    margin-bottom: 4px;
+}
+.input input{
+    border: 1px solid blueviolet;
+    border-radius: 6px;
+    padding: 6px;
+
+}
+.input input:focus{
+    outline: 0;
+}
+.error{
+    color:red;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.input.success input{
+    border-color: green;
+}
+.input.error input{
+    border-color: red;
+}
+.error{
+    color: red;
+}
